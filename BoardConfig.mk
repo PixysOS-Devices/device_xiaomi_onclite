@@ -167,6 +167,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_onclite
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
+# Memory Config
+MALLOC_SVELTE := true
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
