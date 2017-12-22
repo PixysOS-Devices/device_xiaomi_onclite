@@ -634,3 +634,9 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     user system
     group system
     disabled
+
+service energy-awareness /system/vendor/bin/energy-awareness
+    class main
+    user root
+    group system
+    oneshot
