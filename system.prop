@@ -21,6 +21,9 @@ ro.charger.enable_suspend=true
 # CnE
 persist.vendor.cne.feature=1
 
+# Display
+debug.cpurend.vsync=false
+
 # Data modules
 persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
