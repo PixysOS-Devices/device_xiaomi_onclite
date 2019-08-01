@@ -185,7 +185,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     rild.libargs=-d /dev/smd0 \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.carrier=unknown \
-    ro.telephony.default_network=22,20 \
+    ro.telephony.default_network=22,22 \
     telephony.lteOnCdmaDevice=1 \
     vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
