@@ -37,6 +37,7 @@ vendor.vidc.dec.downscalar_height=1088
 vendor.vidc.dec.downscalar_width=1920
 vendor.vidc.enc.disable_bframes=1
 vendor.video.disable.ubwc=1
+sys.display-size=1920x1080
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
