@@ -122,6 +122,7 @@ ifeq ($(HOST_OS),linux)
 endif
 
 # Display
+TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 TARGET_USES_ION := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
