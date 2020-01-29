@@ -19,4 +19,5 @@
     <!-- Adjust the icon padding in status bar for rounded corners --> 
     <dimen name="rounded_corner_content_padding">20px</dimen>
     <dimen name="status_bar_extra_padding">13px</dimen>
+    <dimen name="system_icons_keyguard_padding_end">13dp</dimen>
 </resources>
