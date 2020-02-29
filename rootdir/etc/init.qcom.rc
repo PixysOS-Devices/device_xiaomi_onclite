@@ -98,6 +98,8 @@ on early-boot
     chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
     chown system system /sys/module/hall/parameters/hall_toggle
     chmod 0660 /sys/module/hall/parameters/hall_toggle
+    chown system system /sys/devices/virtual/thermal/thermal_message/sconfig
+    chmod 0660 /sys/devices/virtual/thermal/thermal_message/sconfig
 
     # Kcal permissions
     chown root system /sys/devices/platform/kcal_ctrl.0/kcal
@@ -112,8 +114,6 @@ on early-boot
     chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_val
     chown root system /sys/devices/platform/kcal_ctrl.0/kcal_cont
     chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_cont
-    chown root system /sys/android_touch/doubletap2wake
-    chmod 0660 /sys/android_touch/doubletap2wake
 
     # Graphics
     chown system graphics /sys/class/graphics/fb0/idle_time
