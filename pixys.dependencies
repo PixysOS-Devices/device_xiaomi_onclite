@@ -8,11 +8,5 @@
    "repository": "vendor_xiaomi_onclite",
    "target_path": "vendor/xiaomi/onclite",
    "branch": "ten"
- },
- {
-   "repository": "AbhinandAK350/MiuiCamera",
-   "target_path": "vendor/MiuiCamera",
-   "branch": "onclite",
-   "remote": "github"
  }
 ]
