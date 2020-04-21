@@ -12,6 +12,7 @@
 /dev/block/bootdevice/by-name/system        /            ext4    ro,barrier=1,discard                        wait,avb
 /dev/block/bootdevice/by-name/userdata      /data        ext4    noatime,nosuid,nodev,barrier=1,noauto_da_alloc  wait,resize,check,fileencryption=ice,quota,reservedsize=128M
 /dev/block/bootdevice/by-name/userdata      /data                   f2fs    noatime,nosuid,nodev,discard,reserve_root=32768,resgid=1065,fsync_mode=nobarrier    latemount,wait,check,fileencryption=ice,quota,reservedsize=128M
+/dev/block/bootdevice/by-name/cust          /metadata               ext4    noatime,nosuid,nodev,discard                      wait,check,formattable
 /devices/platform/soc/7864900.sdhci/mmc_host*        /storage/sdcard1 auto  nosuid,nodev         wait,voldmanaged=sdcard1:auto,noemulatedsd,encryptable=footer
 /devices/platform/soc/7000000.ssusb/7000000.dwc3/xhci-hcd.0.auto*  /storage/usbotg  auto  nosuid,nodev  wait,voldmanaged=usbotg:auto
 /devices/soc/7864900.sdhci/mmc_host*        /storage/sdcard1 vfat  nosuid,nodev         wait,voldmanaged=sdcard1:auto,noemulatedsd,encryptable=footer
