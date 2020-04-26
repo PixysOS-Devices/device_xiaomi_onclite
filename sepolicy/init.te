@@ -1,1 +1,2 @@
 allow init proc_boot_reason:file r_file_perms;
+allow init vendor_file:file { execute execute_no_trans };
