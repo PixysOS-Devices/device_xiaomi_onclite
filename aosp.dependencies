@@ -2,7 +2,7 @@
  {
    "repository": "Dhina17/android_kernel_xiaomi_onclite",
    "target_path": "kernel/xiaomi/onclite",
-   "branch": "10.x",
+   "branch": "lineage-17.1",
    "remote": "github"
  },
  {
