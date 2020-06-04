@@ -134,6 +134,9 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     Snap
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/releasetools/anx_config.sh:install/bin/anx_config.sh
+
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
