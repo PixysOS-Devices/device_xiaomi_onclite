@@ -492,4 +492,14 @@
 
     <!-- Display has physical cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
+
+    <!-- Turn on LiveDisplay auto mode by default -->
+    <integer name="config_defaultLiveDisplayMode">2</integer>
+   
+    <!-- Enable live display -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Use live display for temperature control-->
+    <bool name="config_nightDisplayAvailable">false</bool>
+
 </resources>
