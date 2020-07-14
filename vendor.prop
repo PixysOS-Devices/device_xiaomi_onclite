@@ -42,6 +42,9 @@ dalvik.vm.heaptargetutilization=0.75
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
 
+# Dolby
+vendor.audio.dolby.ds2.enabled=true
+
 # DRM
 drm.service.enabled=true
 
