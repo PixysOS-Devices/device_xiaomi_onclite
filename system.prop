@@ -23,6 +23,7 @@ persist.vendor.cne.feature=1
 
 # Display
 debug.cpurend.vsync=false
+debug.performance.tuning=1
 
 # Data modules
 persist.vendor.data.mode=concurrent
