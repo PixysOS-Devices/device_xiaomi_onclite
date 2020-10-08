@@ -28,7 +28,7 @@ budget smartphone from Xiaomi.
  
   ## Device picture
  
-  ![Xiaomi Redmi 7 ](https://www.91-cdn.com/pricebaba-images/images/product/mobile/66422/xiaomi-redmi-7-raw-330605.jpg "Xiaomi Redmi 7")
+  ![Xiaomi Redmi 7 ](https://i.imgur.com/gvssLkv.png "Xiaomi Redmi 7")
 
 
  
