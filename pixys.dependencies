@@ -14,23 +14,5 @@
    "repository": "vendor_xiaomi_onclite",
    "target_path": "vendor/xiaomi/onclite",
    "branch": "eleven"
- },
- {
-    "remote": "lineage",
-    "repository": "android_hardware_qcom_audio",
-    "target_path": "hardware/qcom-caf/SD632/audio",
-    "branch": "lineage-18.1-caf-msm8996"
- },
- {
-    "remote": "lineage",
-    "repository": "android_hardware_qcom_media",
-    "target_path": "hardware/qcom-caf/SD632/media",
-    "branch": "lineage-18.1-caf-msm8996"
- },
- {
-    "remote": "lineage",
-    "repository": "android_hardware_qcom_display",
-    "target_path": "hardware/qcom-caf/SD632/display",
-    "branch": "lineage-18.1-caf-msm8996"
  }
 ]
