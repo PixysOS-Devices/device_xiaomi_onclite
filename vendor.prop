@@ -34,6 +34,8 @@ dalvik.vm.image-dex2oat-threads=8
 dalvik.vm.dex2oat-filter=speed-profile
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.dex2oat-minidebuginfo=false
+dalvik.vm.minidebuginfo=false
 
 # Display post-processing
 ro.vendor.display.cabl=0
