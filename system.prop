@@ -26,6 +26,7 @@ persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
 
 # Graphics
+debug.hwui.use_buffer_age=false
 debug.sf.disable_backpressure=1
 debug.sf.hw=0
 debug.sf.latch_unsignaled=0
