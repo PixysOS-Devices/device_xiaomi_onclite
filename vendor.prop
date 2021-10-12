@@ -59,3 +59,4 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Radio
 persist.vendor.radio.procedure_bytes=SKIP
+persist.vendor.radio.mt_sms_ack=30
