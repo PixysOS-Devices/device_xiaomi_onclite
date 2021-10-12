@@ -397,7 +397,7 @@ PRODUCT_PACKAGES += \
 
 # USB HAL
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
+    android.hardware.usb@1.0-service.msm8953
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
