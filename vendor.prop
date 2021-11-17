@@ -23,6 +23,9 @@ vendor.voice.voip.conc.disabled=true
 # Bluetooth
 vendor.qcom.bluetooth.soc=pronto
 
+# BPF
+ro.kernel.ebpf.supported=true
+
 # Dex2oat
 pm.dexopt.boot=verify
 pm.dexopt.first-boot=verify
