@@ -400,6 +400,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
