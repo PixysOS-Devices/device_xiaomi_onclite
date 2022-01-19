@@ -54,6 +54,7 @@ BOARD_KERNEL_CMDLINE := \
 	androidboot.bootdevice=7824900.sdhci \
 	androidboot.usbconfigfs=true \
 	loop.max_part=7
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_BOOTIMG_HEADER_VERSION := 1
