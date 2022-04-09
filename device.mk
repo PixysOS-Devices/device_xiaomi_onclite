@@ -394,12 +394,18 @@ PRODUCT_PACKAGES += \
     camera.msm8953_shim \
     libshim_dpmframework
 
-# Reduce system image size by limiting java debug info.
-PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
-
 # Always preopt extracted APKs to prevent extracting out of the APK for GMS
 # modules.
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
+PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
+USE_DEX2OAT_DEBUG := false
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+WITH_DEXPREOPT_DEBUG_INFO := false
+PRODUCT_DISABLE_SCUDO := true
+TARGET_VNDK_USE_CORE_VARIANT := true
 
 # Do not spin up a separate process for the network stack, use an in-process
 # APK.
