@@ -1,9 +1,9 @@
 [
  {
-   "remote": "lineage",
-   "repository": "android_packages_resources_devicesettings",
+   "remote": "pixys",
+   "repository": "packages_resources_devicesettings",
    "target_path": "packages/resources/devicesettings",
-   "branch": "lineage-18.1"
+   "branch": "twelve"
  },
  {
    "repository": "kernel_xiaomi_onclite",
