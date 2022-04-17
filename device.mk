@@ -167,10 +167,6 @@ PRODUCT_PACKAGES += \
     libgenlock \
     vendor.display.config@1.9
 
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
